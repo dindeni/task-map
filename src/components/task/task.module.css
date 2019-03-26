@@ -1,0 +1,50 @@
+.taskElement{
+    list-style: none;
+    font-size: 18px;
+    color: #5B6AFF;
+    padding: 10px;
+    background: #BFBD44;
+    margin: 5px;
+    border-radius: 5px;
+    width: 20vw;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    word-break: break-all;
+}
+.taskElementContainer{
+    margin: 0;
+    padding: 0;
+}
+.buttonDelete{
+    position: relative;
+    background: none;
+    border: none;
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    cursor: pointer;
+
+}
+.buttonDelete::before, .buttonDelete::after{
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 4px;
+    background: #B63418;
+    border-radius: 5px;
+    transform: rotate(45deg);
+    right: 4px;
+
+}
+.buttonDelete::after{
+    transform: rotate(-45deg);
+}
+.input{
+    border: 2px solid #BFBD44;
+    border-radius: 5px;
+    padding: 5px;
+    color: #5B6AFF;
+    margin: 5px 0 10px 5px;
+    width: calc(20vw + 6px);
+}
