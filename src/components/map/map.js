@@ -7,7 +7,6 @@ const map = (props) =>{
         let markStart;
         let coords = props.coords;
         coords.forEach((coord, index)=>{
-            console.log(coord);
 
             mark = window.initMap.geoObjects.add(
                 new window.ymaps.Placemark(coord,{
@@ -38,7 +37,6 @@ const map = (props) =>{
     useEffect(()=>{
 
         if (props.coords.length !== 0){
-            console.log(props.coords);
             if (!window.initMap){
                 window.ymaps.ready(function () {
                     window.initMap = new window.ymaps.Map('map', {

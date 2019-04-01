@@ -111,7 +111,6 @@ class Task extends Component{
     }
 
     render() {
-        console.log(this.state.formValue);
         let list;
         if (this.state.formValue){
             list = (
