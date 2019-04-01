@@ -1,6 +1,6 @@
-import React, { Component, useState } from 'react';
+import React, { Component} from 'react';
 
-import Task from './components/task/task';
+import Task from './containers/task/task';
 
 class App extends Component {
 

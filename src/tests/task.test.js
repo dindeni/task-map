@@ -1,10 +1,6 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import Task from '../components/task/task';
+import Task from '../containers/task/task';
 import {shallow, mount} from 'enzyme';
-
-
-
 
 describe('Task test', ()=>{
     const wrapper = mount(<Task/>);

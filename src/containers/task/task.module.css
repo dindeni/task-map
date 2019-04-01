@@ -6,7 +6,7 @@
     background: #BFBD44;
     margin: 5px;
     border-radius: 5px;
-    width: 20vw;
+    width: 30vw;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -46,5 +46,17 @@
     padding: 5px;
     color: #5B6AFF;
     margin: 5px 0 10px 5px;
-    width: calc(20vw + 6px);
+    width: calc(30vw + 6px);
+}
+.article{
+    display: flex;
+    justify-content: space-between;
+}
+@media (min-width: 450px) {
+    .taskElement{
+        width: 20vw;
+    }
+    .input{
+        width: calc(20vw + 6px);
+    }
 }
